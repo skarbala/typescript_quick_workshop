@@ -1,5 +1,5 @@
 //documentation: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
-describe('Typescript: working with variable types', () => {
+describe('Typescript: working with explicit variable types', () => {
     it('math 101', () => {
         let sum: number;
         sum = 1 + 2
