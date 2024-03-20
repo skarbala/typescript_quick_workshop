@@ -1,0 +1,36 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Cypress binary cache
+.cypress/
+
+# Ignore Cypress videos and screenshots
+cypress/videos/
+cypress/screenshots/
+
+# Ignore compiled TypeScript files
+*.js
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore yarn lockfile
+yarn.lock
+
+# Ignore macOS folder attributes
+.DS_Store
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
+
+# Ignore any local `.env` files
+.env*
+
+# Ignore any coverage reports
+coverage/
