@@ -8,8 +8,7 @@ node_modules/
 cypress/videos/
 cypress/screenshots/
 
-# Ignore compiled TypeScript files
-*.js
+
 
 # Ignore TypeScript cache
 *.tsbuildinfo

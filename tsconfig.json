@@ -12,6 +12,5 @@
     },
     "include": [
         "**/*.ts",
-        "cypress/e2e/types/demo.cy.js"
     ]
 }
