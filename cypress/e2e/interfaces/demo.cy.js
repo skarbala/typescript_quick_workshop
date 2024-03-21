@@ -1,3 +1,6 @@
+//TODO: unify the naming
+//TODO: create an interface
+//TODO: create an ENUM
 it('objects are messy', () => {
     const beer_one = {
         name: 'Datel z Marsu',
