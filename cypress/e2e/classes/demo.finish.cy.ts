@@ -1,7 +1,6 @@
-import { has } from "cypress/types/lodash";
 import { format } from "date-fns";
 
-it('', () => {
+it('playing with objects', () => {
     let post_1 = new Post(
         "text",
         "Markus Kaleta, blondata kotleta",
@@ -19,7 +18,6 @@ it('', () => {
     cy.log(post_1.getFormattedDate())
     cy.log((post_2.getFormattedDate()))
 })
-
 
 class Post {
     text: string;
@@ -45,8 +43,6 @@ class Post {
         this.scheduledDate = scheduledDate
     }
 }
-
-
 
 enum SocialMedia {
     INSTAGRAM = "Instagram",

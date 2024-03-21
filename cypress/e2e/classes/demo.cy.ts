@@ -3,7 +3,7 @@
 //TODO: show that method can be inside the object
 import { format } from "date-fns";
 
-it('playing with classes', () => {
+it('playing with objects', () => {
     const post_1: Post = {
         text: 'This is a very interesting post',
         socialMedia: SocialMedia.INSTAGRAM,
