@@ -1,6 +1,6 @@
-import { format, addDays } from "date-fns";
+import { format } from "date-fns";
 
-it('', () => {
+it('working with interfaces', () => {
     const post_1: Post = {
         text: 'This is a very interesting post',
         socialMedia: SocialMedia.INSTAGRAM,
@@ -16,6 +16,8 @@ it('', () => {
         hashtags: ['motivation', 'blog', 'lifestyle']
     }
     cy.log(getFormattedDate(post_2))
+    cy.log(getFormattedDate(post_1))
+
 })
 
 function getFormattedDate(post: Post): string {
