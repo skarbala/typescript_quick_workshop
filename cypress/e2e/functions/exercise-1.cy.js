@@ -1,3 +1,4 @@
+//documentation: https://www.typescriptlang.org/docs/handbook/functions.html
 describe('Functions', () => {
     it('beer with full info', () => {
         //TODO declare all types of variables
