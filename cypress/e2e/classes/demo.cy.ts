@@ -1,6 +1,9 @@
-import { format, addDays } from "date-fns";
+//TODO: explain constructor
+//TODO: explain this. definiton
+//TODO: show that method can be inside the object
+import { format } from "date-fns";
 
-it('', () => {
+it('playing with classes', () => {
     const post_1: Post = {
         text: 'This is a very interesting post',
         socialMedia: SocialMedia.INSTAGRAM,
